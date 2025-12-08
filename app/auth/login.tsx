@@ -14,6 +14,7 @@ const Login = () => {
   const handleLogin = () => {
     // TODO: Implement login logic
     console.log('Login pressed', { email, password });
+    router.push('/home');
   }
 
   return (
