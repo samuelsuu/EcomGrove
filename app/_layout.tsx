@@ -20,7 +20,7 @@ export default function RootLayout() {
         <Stack.Screen name="checkout" options={{ title: 'Checkout' }} />
 
         {/* Product Details */}
-        <Stack.Screen name="product/[id]" options={{ title: 'Details' }} />
+        <Stack.Screen name="product/[id]" options={{ title: 'Details', headerShown: false }} />
       </Stack>
     </CartProvider>
   );
